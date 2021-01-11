@@ -1,0 +1,23 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "Тестовая мини-приложение",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "node.js"
+  ],
+  "author": "Mukhammad Magomedov <web_mukhammad@mail.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "^0.27.0"
+  },
+  "devDependencies": {
+    "image-size": "^0.9.3",
+    "nodemon": "^2.0.6"
+  }
+}
